@@ -1,3 +1,5 @@
+This repository is the result of scientific research using unsupervised ML algorithms to prevent failure during the drilling of oil&gas wells. The main goal is to produce a system that isn't essentially required a pre-drill model because the system utilizes a self-learning and self-adjusting model and proactively identifying an anomaly in wellbore condition and mitigates a stuck pipe incident before it occurs.
+
 ## How to Run
 
 To run and output data to a local file:
