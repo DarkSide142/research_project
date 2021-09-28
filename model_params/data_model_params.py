@@ -1,0 +1,57 @@
+MODEL_PARAMS = {
+    "modelParams": {
+        "anomaly": {
+            "anomalyThreshold": 0.5,
+            "anomalyFrequencyThreshold": 6,
+            "likelihood": {
+                "probationaryPct": 0.10287247901390377,
+                "learningPeriod": 3600,
+                "estimationSamples": 240,
+                "reestimationPeriod": 30,
+                "historicWindowSize": 450,
+            },
+        },
+        "predictor": {"sdrc_alpha": 0.1, "steps": 1},
+        "enc": {
+            "value": {
+                "resolution": 0.88,
+                "size": 700,
+                "sparsity": 0.02,
+                "seed": 42,
+                "fields": 2,
+            },
+            "category": {
+                "radius": 1.0,
+                "activeBits": 3,
+                "category": True,
+                "minimum": 0,
+                "maximum": 2,
+                "fields": 2,
+            },
+        },
+        "sp": {
+            "boostStrength": 3.0,
+            "columnCount": 2048,
+            "localAreaDensity": 0.02315293328723999,
+            "potentialPct": 0.7268162250552015,
+            "synPermActiveInc": 0.005756214837461844,
+            "synPermConnected": 0.5255368572159246,
+            "synPermInactiveDec": 0.0010412298597037122,
+            "seed": 42,
+        },
+        "tm": {
+            "activationThreshold": 19,
+            "cellsPerColumn": 16,
+            "initialPerm": 0.23075451521239015,
+            "maxSegmentsPerCell": 128,
+            "maxSynapsesPerSegment": 64,
+            "minThreshold": 12,
+            "newSynapseCount": 32,
+            "permanenceDec": 0.007285708940843109,
+            "permanenceInc": 0.04329160631961319,
+            "predictedSegmentDecrement": 0.0010265038754633969,
+            "seed": 42,
+        },
+    },
+    "version": 8,
+}
